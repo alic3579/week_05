@@ -45,7 +45,7 @@ h1 {font-size: 120%; text-align: center; margin-top: 2vw;}
       background-color: #fffcec;
       border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
       margin: 5vw 5vw;
-      box-shadow: 7px -5px #933A16;
+      box-shadow: .5vw -.3vw #933A16;
       animation-name: egg;
       animation-duration: 1s;
       animation-iteration-count: infinite;
