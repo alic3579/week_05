@@ -62,6 +62,9 @@ var eggFunction = function(i, goldEgg){
 
 
 
+
+
+
 	var eggDelay = Math.random()*(-4);
 	// console.log(eggDelay);
 
@@ -118,6 +121,28 @@ var eggFunction = function(i, goldEgg){
 	singleEgg.addEventListener("mouseout", function(){
 	cluck.style.opacity = "0";
 	})
+
+
+
+	////////////////
+	var easterEgg = document.querySelector(`h1`);
+	var revealGoldEgg = document.querySelector(`.egg ${specialClass}`)
+	
+
+	easterEgg.addEventListener("click",function(){
+		if(singleEgg.style.backgroundColor !== "black"){
+		singleEgg.style.backgroundColor = "#F2C2C2";
+		}
+		if(singleEgg.classList.contains("goldEgg")){
+			singleEgg.style.backgroundColor = "#9EC4C5";
+		}
+
+
+	})
+
+
+	///////////////
+
 
 
 }

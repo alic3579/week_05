@@ -45,7 +45,7 @@ h1 {font-size: 120%; text-align: center; margin-top: 2vw;}
       background-color: #fffcec;
       border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
       margin: 5vw 5vw;
-      box-shadow: .5vw -.3vw #933A16;
+      box-shadow: .5vw -.3vw #DAA520;
       animation-name: egg;
       animation-duration: 1s;
       animation-iteration-count: infinite;
@@ -129,7 +129,7 @@ h1 {font-size: 120%; text-align: center; margin-top: 2vw;}
       height: 15vw;
       width: 15vw;
       position: absolute;
-      transform: translate(-85%, -55%);
+      transform: translate(-88%, -73%);
       display: none;
 }
 
