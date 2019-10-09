@@ -126,14 +126,13 @@ var eggFunction = function(i, goldEgg){
 
 	////////////////
 	var easterEgg = document.querySelector(`h1`);
-	var revealGoldEgg = document.querySelector(`.egg ${specialClass}`)
 	
 
 	easterEgg.addEventListener("click",function(){
-		if(singleEgg.style.backgroundColor !== "black"){
+		if(singleEgg.style.backgroundColor !== "black" && chick.style.display !== "block"){
 		singleEgg.style.backgroundColor = "#F2C2C2";
 		}
-		if(singleEgg.classList.contains("goldEgg")){
+		if(singleEgg.classList.contains("goldEgg") && chick.style.display !== "block"){
 			singleEgg.style.backgroundColor = "#9EC4C5";
 		}
 
